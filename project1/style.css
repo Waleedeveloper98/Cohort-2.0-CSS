@@ -39,3 +39,30 @@ body {
     font-size: 14.5px;
     padding: 0px 10px;
 }
+
+.edu{
+    width: 90%;
+    height: 220px;
+    background-color: skyblue;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.edu h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.edu div{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.edu div h5{
+    font-weight: 500;
+}
