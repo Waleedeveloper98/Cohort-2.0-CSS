@@ -93,3 +93,31 @@ body {
     font-weight: 700;
     text-transform: uppercase;
 }
+.projects{
+    width: 90%;
+    height: 270px;
+    background-color: rgba(128, 0, 128, 0.621);
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.projects h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+.projects div{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.projects div h5{
+    font-weight: 500;
+    font-style: italic;
+}
