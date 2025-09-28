@@ -121,3 +121,30 @@ body {
     font-weight: 500;
     font-style: italic;
 }
+.contact{
+    width: 90%;
+    height: 250px;
+    background-color: lightgreen;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contact h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+.contact div{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.contact div h5{
+    font-weight: 500;
+}
