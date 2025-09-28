@@ -66,3 +66,30 @@ body {
 .edu div h5{
     font-weight: 500;
 }
+.skills{
+    width: 90%;
+    height: 320px;
+    background-color: rgb(253, 232, 2);
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.skills h3{
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+.skills div{
+    background-color: white;
+    width: 40%;
+    text-align: center;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.skills div h5{
+    font-weight: 700;
+    text-transform: uppercase;
+}
