@@ -20,11 +20,11 @@ main {
 }
 
 main h1 {
-    font-size: 250px;
+    font-size: 220px;
+    letter-spacing: 10px;
     padding-left: 30px;
     font-weight: 500;
     line-height: 1;
-    margin-top: 20px;
 }
 
 a {
@@ -60,6 +60,7 @@ nav h5 {
 #side_section {
     padding-left: 30px;
     width: 250px;
+    margin-top: 30px;
 }
 
 #side_section p {
@@ -91,4 +92,21 @@ footer h6 {
 }
 footer a {
     font-size: 14px;
+}
+main img{
+    position: absolute;
+    height: 200px;
+}
+#img1{
+    left: 43%;
+    top: 45%;
+}
+#img2{
+    left: 55%;
+    top: 55%;
+}
+#img3{
+    left: 73%;
+    top: 40%;
+    height: 300px;
 }
