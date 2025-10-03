@@ -92,3 +92,14 @@ input{
     font-size: 14px;
     font-family: font1;
 }
+.phoneImg{
+    height: 370px;
+    position: absolute;
+    left: 53%;
+    top: 25%;
+    rotate: -30deg;
+}
+#white{
+    top: 32%;
+    left: 57.6%;
+}
