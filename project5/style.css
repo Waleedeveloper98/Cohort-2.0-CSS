@@ -2,64 +2,84 @@
     font-family: font1;
     src: url(/project5/korataki-rg-3cf0d889-B6eTgmP5.ttf);
 }
+
 @font-face {
     font-family: font2;
     src: url(/project5/korataki-rg-3cf0d889.ttf);
 }
+
 @font-face {
     font-family: font3;
     src: url(/project5/Ndot-55-DoenNkNm.ttf);
 }
+
 @font-face {
     font-family: font4;
     src: url(/project5/Sansation_Regular-COtNG1MQ.ttf);
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: poppins , sans-serif;
+    font-family: poppins, sans-serif;
 }
-html , body{
+
+html,
+body {
     height: 100%;
     width: 100%;
 }
-main{
+
+main {
     position: relative;
     width: 100%;
     height: 100%;
     background-color: black;
     color: white;
 }
-nav{
+
+nav {
     padding: 10px 25px;
     display: flex;
     align-items: center;
 }
-#firstNavImg{
+
+#firstNavImg {
     height: 85px;
 }
-#firstNavText{
+
+#firstNavText {
     position: absolute;
     top: 30px;
     font-family: font3;
     left: 68px;
     font-size: 40px;
 }
-.second,.third,.fourth,.fifth{
+
+.second,
+.third,
+.fourth,
+.fifth {
     position: relative;
 }
-.second{
+
+.second {
     margin-inline: 50px;
 }
-#secondNavImg,#thirdNavImg,#fourthNavImg,#fifthNavImg{
+
+#secondNavImg,
+#thirdNavImg,
+#fourthNavImg,
+#fifthNavImg {
     height: 60px;
 }
-.fourth{
+
+.fourth {
     margin-inline: 30px;
 }
-input{
+
+input {
     position: absolute;
     left: 50px;
     background-color: transparent;
@@ -70,7 +90,8 @@ input{
     top: 20%;
 }
 
-#thirdNavText,#fourthNavText{
+#thirdNavText,
+#fourthNavText {
     position: absolute;
     top: 25%;
     left: 50px;
@@ -78,28 +99,166 @@ input{
     font-family: font1;
 }
 
-#fourthNavText{
+#fourthNavText {
     position: absolute;
     top: 25%;
     left: 40px;
     font-size: 14px;
     font-family: font1;
 }
-#fifthNavText{
+
+#fifthNavText {
     position: absolute;
     top: 25%;
     left: 25px;
     font-size: 14px;
     font-family: font1;
 }
-.phoneImg{
+
+.phoneImg {
     height: 370px;
     position: absolute;
     left: 53%;
     top: 25%;
     rotate: -30deg;
+    z-index: 10;
 }
-#white{
+
+#white {
     top: 32%;
     left: 57.6%;
+}
+
+.upper_container {
+    position: relative;
+    top: -17px;
+    width: 100%;
+    /* min-height: 500px; */
+    background-color: red;
+}
+
+.bar1 {
+    width: 120px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 18.5%;
+    top: 38px;
+    rotate: -140deg;
+}
+
+.bar2 {
+    width: 180px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 26.7%;
+    top: 76px;
+}
+
+.bar3 {
+    width: 80px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 40%;
+    top: 101px;
+    rotate: -140deg;
+}
+
+.bar4 {
+    width: 54.4%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 45.5%;
+    top: 127px;
+}
+
+.bar5 {
+    width: 160px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 35%;
+    top: 128px;
+    rotate: -140deg;
+}
+
+.bar6 {
+    width: 60px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 46%;
+    top: 180px;
+}
+
+.bar7 {
+    width: 45px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 50.2%;
+    top: 195px;
+    rotate: -135deg;
+}
+
+.bar8 {
+    width: 183px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 53.2%;
+    top: 211px;
+}
+.bar9 {
+    width: 45px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 67%;
+    top: 195px;
+    rotate: 135deg;
+}
+.bar10 {
+    width: 30%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    left: 70%;
+    top: 180px;
+}
+.btm_container{
+    width: 100%;
+    height: 100px;
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+}
+.bar11{
+    width: 45%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bar12{
+    width: 55px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 29%;
+    transform: translateY(-50%);
+    left: 44.2%;
+    rotate: 135deg;
+}
+.bar13{
+    width: 52%;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    top: 10%;
+    left: 47.9%;
 }
