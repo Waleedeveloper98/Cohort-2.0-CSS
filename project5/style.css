@@ -262,3 +262,24 @@ input {
     top: 10%;
     left: 47.9%;
 }
+.headings{
+    padding: 20px;
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+.headings h1{
+    font-family: font1;
+    color: #999D9C;
+    text-align: center;
+    font-size: 35px;
+    line-height: 1.5;
+}
+.btm_container h6{
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #999D9C;
+    font-family: font3;
+    padding-left: 60px;
+    padding-top: 18px;
+}
