@@ -1,21 +1,21 @@
 @font-face {
-    font-family: font1;
-    src: url(./korataki-rg-3cf0d889-B6eTgmP5.ttf);
+  font-family: 'font1';
+  src: url('korataki-rg-3cf0d889-B6eTgmP5.ttf');
 }
 
 @font-face {
-    font-family: font2;
-    src: url(./korataki-rg-3cf0d889.ttf);
+  font-family: 'font2';
+  src: url('korataki-rg-3cf0d889.ttf');
 }
 
 @font-face {
-    font-family: font3;
-    src: url(./Ndot-55-DoenNkNm.ttf);
+  font-family: 'font3';
+  src: url('Ndot-55-DoenNkNm.ttf');
 }
 
 @font-face {
-    font-family: font4;
-    src: url(./Sansation_Regular-COtNG1MQ.ttf);
+  font-family: 'font4';
+  src: url('Sansation_Regular-COtNG1MQ.ttf');
 }
 
 * {
