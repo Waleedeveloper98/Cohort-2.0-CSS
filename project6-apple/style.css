@@ -44,6 +44,15 @@ li {
     list-style: none;
 }
 
+.sec {
+    width: 100%;
+    height: 100vh;
+    margin-top: 10px;
+}
+h1{
+    display: flex;
+    align-items: center;
+}
 main {
     width: 100%;
     height: 100%;
@@ -56,7 +65,7 @@ nav {
     left: 0;
     width: 100%;
     height: 50px;
-    background-color: #161617;
+    background-color: #262627;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,7 +78,7 @@ nav ul {
 }
 
 nav ul li a {
-    color: #9D9D9E;
+    color: #b5b5b5;
     font-size: 12.5px;
     font-family: apple3;
     font-weight: 100;
@@ -141,4 +150,134 @@ nav ul li a {
     font-family: apple3;
     font-weight: 100;
     font-size: 17px;
+}
+
+#iphone_air {
+    background-image: url(images/iphone_air.webp);
+    background-size: cover;
+}
+
+.sec h1,
+.sec h2 {
+    color: black;
+}
+
+#iphone_air h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+#iphone_air .text_box {
+    padding-top: 70px;
+}
+
+#iphone_17 {
+    background-image: url(images/iphone_17.webp);
+    background-size: cover;
+}
+
+#iphone_17 .text_box {
+    padding-top: 70px;
+}
+
+#watch_pods .text_box{
+    padding-top: 40px;
+}
+#watch_pods .text_box h1{
+    font-size: 40px;
+}
+#watch_pods .watch .text_box h1{
+    font-size: 40px;
+    font-family: apple3;
+    font-weight: 100;
+}
+#watch_pods .text_box h1 span{
+    font-weight: 700;
+    font-size: 40px;
+}
+#watch_pods .text_box h2{
+    font-size: 21px;
+}
+#watch_pods .btns button {
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+#watch_pods .watch{
+    background-image: url(images/apple_watch_series_11.webp);
+    background-size: cover;
+}
+#watch_pods .pods{
+    background-image: url(images/airpodspro_3.webp);
+    background-size: cover;
+}
+
+#watch_pods,
+#mac_ipad,
+#trade_card {
+    height: 90%;
+    display: flex;
+    gap: 10px;
+}
+
+#mac_ipad .mac,
+#mac_ipad .ipad,
+#trade_card .trade,
+#trade_card .card,
+#watch_pods .watch,
+#watch_pods .pods {
+    width: 50%;
+    height: 100%;
+    background-color: #0071E3;
+}
+
+#mac_ipad .mac {
+    background-image: url(images/macbook_air.webp);
+    background-size: cover;
+
+}
+
+#mac_ipad .ipad {
+    background-image: url(images/ipad_air.webp);
+    background-size: cover;
+}
+
+#mac_ipad .text_box,
+#trade_card .text_box {
+    padding-top: 70px;
+}
+
+#mac_ipad .text_box h1 {
+    font-size: 40px;
+}
+
+#mac_ipad .text_box h2{
+    font-size: 22px;
+}
+
+
+#mac_ipad .btns button {
+    font-size: 15px;
+    padding: 8px 16px;
+}
+
+#trade_card .trade {
+    background-image: url(images/iphone_tradein.webp);
+    background-size: cover;
+
+}
+
+#trade_card .card {
+    background-image: url(images/apple_card.webp);
+    background-size: cover;
+}
+#trade_card .text_box h1{
+    font-size: 40px;
+}
+#trade_card .text_box h2{
+    font-size: 21px;
+}
+#trade_card .btns button {
+    font-size: 15px;
+    padding: 8px 16px;
 }
