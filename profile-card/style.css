@@ -24,6 +24,8 @@ main {
     align-items: center;
     justify-content: center;
     gap: 50px;
+    flex-wrap: wrap;
+    padding-block: 100px;
 }
 
 .card-bg {
