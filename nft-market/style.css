@@ -174,3 +174,35 @@ nav .right i{
 .hero-btm .right .stat:last-child{
     border-bottom: none;
 }
+.trending{
+    width: 100%;
+    padding: 60px 40px;
+    padding-top: 120px;
+}
+.trending-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.trending-top h4{
+    color: #D5F903;
+    font-weight: 500;
+}
+.trending-top h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+.trending-top .center{
+    width: 32%;
+}
+.trending-top button{
+    padding: 10px 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.trending-top .back{
+    background-color: transparent;
+    border: 1px solid;
+    color: white;
+}
