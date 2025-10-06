@@ -10,9 +10,11 @@ body {
     height: 100%;
     width: 100%;
 }
-body{
+
+body {
     background-color: black;
 }
+
 a {
     color: white;
     text-decoration: none;
@@ -33,9 +35,11 @@ main {
     background-color: black;
     color: white;
 }
-.hero{
+
+.hero {
     width: 100%;
 }
+
 nav {
     display: flex;
     align-items: center;
@@ -83,11 +87,13 @@ nav ul li a {
 nav ul li a:hover {
     color: #d4f903de;
 }
-nav .right{
+
+nav .right {
     display: flex;
     align-items: center;
     gap: 10px;
 }
+
 nav .right button {
     background-color: transparent;
     border: 1px solid #D5F903;
@@ -102,31 +108,38 @@ nav .right button:hover {
     background-color: #D5F903;
     color: black;
 }
-nav .right i{
+
+nav .right i {
     font-size: 20px;
 }
-.hero-main{
+
+.hero-main {
     padding-top: 30px;
 }
-.hero-main h1{
+
+.hero-main h1 {
     text-align: center;
     line-height: 1.2;
     font-size: 60px;
 }
-.hero-main h1:first-child{
+
+.hero-main h1:first-child {
     font-weight: 300;
 }
-.hero-main h1:last-child{
+
+.hero-main h1:last-child {
     font-weight: 600;
 }
-.hero-btm{
+
+.hero-btm {
     width: 100%;
     /* height: 100vh; */
     display: flex;
     margin-top: 50px;
     padding: 0px 40px;
 }
-.hero-btm .left{
+
+.hero-btm .left {
     width: 20%;
     height: 100%;
     /* background-color: paleturquoise; */
@@ -135,10 +148,12 @@ nav .right i{
     align-items: center;
     gap: 10px;
 }
-.hero-btm .left img{
+
+.hero-btm .left img {
     height: 140px;
 }
-.hero-btm .center{
+
+.hero-btm .center {
     width: 60%;
     height: 100%;
     /* background-color: red; */
@@ -146,12 +161,13 @@ nav .right i{
     align-items: center;
     justify-content: center;
 }
-.hero-btm .right{
+
+.hero-btm .right {
     width: 20%;
     height: 100%;
 }
 
-.hero-btm .right .stat{
+.hero-btm .right .stat {
     width: 80%;
     border-bottom: 2px solid;
     padding: 20px 0px;
@@ -161,48 +177,198 @@ nav .right i{
     align-items: center;
     justify-content: center;
 }
-.hero-btm .right .stat h3{
+
+.hero-btm .right .stat h3 {
     font-size: 40px;
     font-weight: 300;
 }
-.stat h3 span{
+
+.stat h3 span {
     color: #D5F903;
 }
-.stat p{
+
+.stat p {
     color: #D5F903;
 }
-.hero-btm .right .stat:last-child{
+
+.hero-btm .right .stat:last-child {
     border-bottom: none;
 }
-.trending{
+
+.trending {
     width: 100%;
     padding: 60px 40px;
     padding-top: 120px;
 }
-.trending-top{
+
+.trending-top {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.trending-top h4{
+
+.trending-top h4 {
     color: #D5F903;
     font-weight: 500;
 }
-.trending-top h2{
+
+.trending-top h2 {
     font-size: 35px;
     font-weight: 600;
 }
-.trending-top .center{
+
+.trending-top .center {
     width: 32%;
 }
-.trending-top button{
+
+.trending-top button {
     padding: 10px 20px;
     font-size: 30px;
     border-radius: 10px;
     cursor: pointer;
 }
-.trending-top .back{
+
+.trending-top .back {
     background-color: transparent;
     border: 1px solid;
     color: white;
+}
+
+.cards {
+    width: 100%;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-outer {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.card {
+    width: 350px;
+    height: 420px;
+    background-color: #1c1d20;
+    border-radius: 7px;
+    /* border: 1px solid; */
+    padding: 10px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card .inner1 {
+    width: 300px;
+    height: 370px;
+    background-color: #8C01F9;
+    background-image: url(card1.png);
+    background-size: 180% 88%;
+    /* background-size: cov; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    clip-path: path("M 300,70 A 10,10 0,0,0 290,60 L 180,60 A 10,10 0,0,1 170,50 L 170,10, A 10,10 0,0,0 160,0 L 10,0 A 10,10 0,0,0 0,10 L 0,320 L 150,320, A 10,10 0,0,1 160,330 L 160,360, A 10,10 0,0,0 170,370 L 290,370 A 10,10 0,0,0 300, 360 Z");
+}
+
+.card .inner2 {
+    width: 300px;
+    height: 370px;
+    background-color: #D5F903;
+    background-image: url(card2.png);
+    background-size: 110% 88%;
+    /* background-size: cov; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    clip-path: path("M 300,70 A 10,10 0,0,0 290,60 L 180,60 A 10,10 0,0,1 170,50 L 170,10, A 10,10 0,0,0 160,0 L 10,0 A 10,10 0,0,0 0,10 L 0,320 L 150,320, A 10,10 0,0,1 160,330 L 160,360, A 10,10 0,0,0 170,370 L 290,370 A 10,10 0,0,0 300, 360 Z");
+}
+
+.card .inner3 {
+    width: 300px;
+    height: 370px;
+    background-color: #F96A02;
+    background-image: url(card3.png);
+    background-size: 180% 88%;
+    /* background-size: cov; */
+    background-repeat: no-repeat;
+    background-position: bottom;
+    clip-path: path("M 300,70 A 10,10 0,0,0 290,60 L 180,60 A 10,10 0,0,1 170,50 L 170,10, A 10,10 0,0,0 160,0 L 10,0 A 10,10 0,0,0 0,10 L 0,320 L 150,320, A 10,10 0,0,1 160,330 L 160,360, A 10,10 0,0,0 170,370 L 290,370 A 10,10 0,0,0 300, 360 Z");
+}
+
+.tag,
+.timer,
+.currency {
+    position: absolute;
+}
+
+.tag {
+    z-index: 10;
+    left: -10px;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 8px 7px;
+    top: 20%;
+    color: black;
+}
+
+.timer {
+    top: 30px;
+    right: 30px;
+}
+
+.timer h4 {
+    font-weight: 300;
+}
+
+.timer h3 {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.currency {
+    left: 40px;
+    bottom: 40px;
+    font-size: 17px;
+}
+
+.card1 .tag {
+    background-color: #D4F505;
+    border: 1.5px solid #FA6B0A;
+}
+
+.card2 .tag {
+    background-color: #FA6B0A;
+}
+
+.card3 .tag {
+    background-color: #D4F505;
+}
+
+.card i {
+    color: #EDA049;
+}
+
+.card-outer button {
+    padding: 8px 26px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #28292c;
+    color: white;
+}
+
+.card-outer .btn1 {
+    box-shadow: 4px 4px 2px #7217B1;
+}
+
+.card-outer .btn2 {
+    box-shadow: 4px 4px 2px #C4DA4B;
+}
+.card-outer .btn3 {
+    box-shadow: 4px 4px 2px #BC6328;
 }
