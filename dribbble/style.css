@@ -391,7 +391,7 @@ nav .right img {
     height: 100vh;
     padding: 20px 50px;
     display: flex;
-    align-items: flex-start;
+    flex-direction: column;
 }
 
 .showcase .topbar {
@@ -431,7 +431,8 @@ button {
     justify-content: center;
     gap: 5px;
 }
-#follow-btn .inner i{
+
+#follow-btn .inner i {
     padding-top: 4px;
 }
 
@@ -457,7 +458,7 @@ button {
 }
 
 #filter-btn {
-     height: 35px;
+    height: 35px;
     width: 90px;
     border-radius: 50px;
     border: none;
@@ -468,7 +469,7 @@ button {
     justify-content: center;
 }
 
-#filter-btn  .inner{
+#filter-btn .inner {
     width: 100%;
     height: 100%;
     background-color: white;
@@ -477,4 +478,142 @@ button {
     align-items: center;
     justify-content: center;
     gap: 7px;
+}
+
+.cards-container {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards-container .card {
+    width: 32%;
+    height: 350px;
+    margin-bottom: 35px;
+}
+
+.cards-container .card .img-container {
+    width: 100%;
+    height: 85%;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.img-container .overlay-details{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background: linear-gradient(to bottom,transparent ,rgba(0, 0, 0, 0.541) 60%);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    font-family: f2;
+    bottom: -30%;
+    gap: 30px;
+    transition: all ease .3s;
+}
+.img-container:hover .overlay-details{
+    bottom: 0;
+}
+.img-container .overlay-details h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+.overlay-icons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.overlay-icons i{
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    padding: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.cards-container .card .img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+.cards-container .bottom-details {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: f1;
+}
+
+.cards-container .bottom-details .left,
+.cards-container .bottom-details .right {
+    display: flex;
+    align-items: center;
+}
+
+.cards-container .bottom-details .left img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.cards-container .bottom-details .left {
+    gap: 10px;
+}
+
+.cards-container .bottom-details .left .name {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cards-container .bottom-details .left .level {
+    background-color: #bdbdbe;
+    color: white;
+    padding: 2px 3px;
+    border-radius: 4px;
+    font-size: 10px;
+    font-weight: 500;
+    transition: all ease .15s;
+    cursor: pointer;
+}
+
+.cards-container .bottom-details .left .level:hover {
+    background-color: black;
+    color: white;
+}
+
+.cards-container .bottom-details .right {
+    gap: 10px;
+}
+
+.cards-container .bottom-details .right div {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 13px;
+    font-family: f1;
+    font-weight: 500;
+    color: #9E9EA7;
+}
+
+.cards-container .bottom-details .right div i {
+    font-size: 17px;
+}
+
+.cards-container .bottom-details .right div .heart {
+    transition: all ease .15s;
+    cursor: pointer;
+}
+
+.cards-container .bottom-details .right div .heart:hover {
+    color: #f185af;
+
 }
