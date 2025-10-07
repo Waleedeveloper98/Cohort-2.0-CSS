@@ -23,3 +23,55 @@ html , body{
     height: 100%;
     width: 100%;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+li{
+    list-style: none;
+}
+main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+nav .left{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+nav .left svg{
+    width: 90px;
+}
+nav .left ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+nav .left ul li a{
+    font-family: f1;
+    font-weight: 600;
+    font-size: 14px;
+}
+nav .right{
+    display: flex;
+    gap: 20px;
+}
+nav .right svg{
+    transform: translateY(40%);
+}
+nav .right img{
+    width: 45px;
+    border-radius: 50px;
+}
