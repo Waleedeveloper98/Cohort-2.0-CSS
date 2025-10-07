@@ -326,22 +326,27 @@ nav .right img {
 }
 
 @keyframes round {
-    0%{
+    0% {
         transform: rotate(0deg);
     }
-    25%{
+
+    25% {
         transform: rotate(90deg);
     }
-    50%{
+
+    50% {
         transform: rotate(180deg);
     }
-    75%{
+
+    75% {
         transform: rotate(270deg);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg);
     }
 }
+
 .highlight .btn-outer button {
     border-radius: inherit;
     height: 100%;
@@ -361,11 +366,13 @@ nav .right img {
     font-weight: 100;
     color: #A37FD4;
 }
-.highlight p{
+
+.highlight p {
     font-family: f1;
     font-size: 14px;
 }
-.highlight .tag{
+
+.highlight .tag {
     font-family: f3;
     background-color: #EC5E95;
     position: absolute;
@@ -377,7 +384,97 @@ nav .right img {
     padding: 2px 6px;
     border-radius: 50px;
 }
-.page {
+
+
+.showcase {
     width: 100%;
     height: 100vh;
+    padding: 20px 50px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.showcase .topbar {
+    width: 100%;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase .topbar ul {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    cursor: pointer;
+    font-family: f2;
+}
+
+#follow-btn {
+    height: 35px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    padding: 2px;
+    margin-right: 50px;
+}
+
+#follow-btn .inner {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+#follow-btn .inner i{
+    padding-top: 4px;
+}
+
+.category-btn {
+    background-color: transparent !important;
+    padding: 6px 16px;
+    border-radius: 50px;
+    border: none;
+    margin-inline: 5px;
+    font-size: 14px;
+}
+
+.topbar ul li {
+    border-radius: 50px;
+}
+
+.topbar ul li:nth-child(2) {
+    background-color: #f3f3f3;
+}
+
+.category-btn i {
+    font-size: 18px;
+}
+
+#filter-btn {
+     height: 35px;
+    width: 90px;
+    border-radius: 50px;
+    border: none;
+    padding: 2px;
+    margin-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filter-btn  .inner{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
 }
