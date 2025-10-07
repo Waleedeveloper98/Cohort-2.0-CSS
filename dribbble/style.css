@@ -246,24 +246,28 @@ nav .right img {
     border-radius: 50px;
     cursor: pointer;
 }
-.hero .right{
+
+.hero .right {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.hero .right .video-box{
+
+.hero .right .video-box {
     width: 95%;
     height: 80%;
     border-radius: 20px;
     position: relative;
 }
-.hero .right .video-box video{
+
+.hero .right .video-box video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
 }
-.hero .right .video-box .user{
+
+.hero .right .video-box .user {
     position: absolute;
     bottom: 10px;
     right: 10px;
@@ -274,14 +278,106 @@ nav .right img {
     align-items: center;
     gap: 10px;
 }
-.hero .right .video-box .user img{
+
+.hero .right .video-box .user img {
     width: 25px;
     height: 25px;
     object-fit: cover;
     border-radius: 50%;
 }
-.hero .right .video-box .user h6{
+
+.hero .right .video-box .user h6 {
     font-size: 11px;
     font-family: f1;
     font-weight: 600;
+}
+
+.highlight {
+    position: relative;
+    width: 88%;
+    margin: 20px auto;
+    background-color: #F8F8FC;
+    border-radius: 15px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-inline-start: 10px;
+    gap: 50px;
+}
+
+.highlight .btn-outer {
+    position: relative;
+    height: 45px;
+    background-color: transparent;
+    border-radius: 50px;
+    padding: 2px;
+    overflow: hidden;
+}
+
+.highlight .btn-outer::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: conic-gradient(transparent, transparent, #A37FD4);
+    scale: 8;
+    animation: round 5s linear infinite;
+}
+
+@keyframes round {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.highlight .btn-outer button {
+    border-radius: inherit;
+    height: 100%;
+    border: none;
+    padding-inline: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-family: f1;
+    font-weight: 600;
+    position: relative;
+    /* opacity: 0; */
+}
+
+.highlight .btn-outer button i {
+    font-size: 22px;
+    font-weight: 100;
+    color: #A37FD4;
+}
+.highlight p{
+    font-family: f1;
+    font-size: 14px;
+}
+.highlight .tag{
+    font-family: f3;
+    background-color: #EC5E95;
+    position: absolute;
+    z-index: 10;
+    top: 17px;
+    left: 165px;
+    color: white;
+    font-size: 9px;
+    padding: 2px 6px;
+    border-radius: 50px;
+}
+.page {
+    width: 100%;
+    height: 100vh;
 }
