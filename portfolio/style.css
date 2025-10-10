@@ -1128,7 +1128,7 @@ footer {
 .user-details-container h2 {
     font-size: 35px;
     font-weight: 600;
-    margin-bottom: 7vw;
+    margin-bottom: 15vw;
 }
 
 .user-details-container h2 span {
@@ -1138,4 +1138,13 @@ footer {
     height: 6px;
     border-radius: 50%;
     background-color: var(--orange);
+}
+.contact .bottom h1{
+    position: absolute;
+    font-size: 23vw;
+    
+    color: var(--dim2);
+    bottom: 10%;
+    left: 6%;
+    letter-spacing: 2vw;
 }
