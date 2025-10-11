@@ -102,34 +102,41 @@ nav .logo a {
     justify-content: center;
     flex-direction: column;
 }
-.blue-btn div{
+
+.blue-btn div {
     padding: .5rem;
     transform: translateY(1.4rem);
     transition: all ease-in-out .2s;
 }
-.blue-btn:hover div{
+
+.blue-btn:hover div {
     transform: translateY(-1.4rem);
 }
 
-.hero{
+.hero {
     width: 100%;
     height: 110vh;
     display: flex;
     align-items: flex-end;
     font-family: f1;
 }
-.hero .inner{
+
+.hero .inner {
     width: 100%;
     height: 88%;
     background-color: var(--light-gray);
     border-radius: 1.7rem;
     display: flex;
+    flex-wrap: wrap;
     margin: 0rem 1rem;
 }
-.hero .inner .left,.hero .inner .right{
+
+.hero .inner .left,
+.hero .inner .right {
     width: 50%;
     height: 100%;
 }
+
 .hero .inner .left {
     display: flex;
     flex-direction: column;
@@ -139,22 +146,26 @@ nav .logo a {
     padding-top: 6rem;
     padding-left: 4rem;
 }
-.hero .inner .left h1{
+
+.hero .inner .left h1 {
     font-size: 6.5rem;
     line-height: 8rem;
 }
-.hero .inner .left p{
+
+.hero .inner .left p {
     font-size: 1.65rem;
     width: 88%;
     font-family: f2;
     color: var(--secondary-text-color);
     font-weight: 500;
 }
-.hero .left .btns{
+
+.hero .left .btns {
     display: flex;
     gap: 2rem;
 }
-.outline-btn{
+
+.outline-btn {
     width: 8rem;
     height: 3.8rem;
     border-radius: 50px;
@@ -165,18 +176,112 @@ nav .logo a {
     background-color: transparent;
     transition: all ease-in-out .2s;
 }
-.outline-btn:hover{
+
+.outline-btn:hover {
     background-color: var(--blue);
     color: white;
 }
-.hero .right .video-box{
+
+.hero .right .video-box {
     width: 88%;
     height: 88%;
     border-radius: 2rem;
 }
-.video-box video{
+
+.video-box video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     border-radius: inherit;
+}
+
+.stats {
+    padding: 6rem 4rem;
+    display: flex;
+    font-family: f1;
+}
+
+.stats .stat {
+    width: 25%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+}
+
+.stat h2 {
+    font-size: 6rem;
+}
+
+.stat h6 {
+    font-size: 1.6rem;
+    width: 75%;
+    color: var(--secondary-text-color);
+    font-family: f2;
+    font-weight: 500;
+    text-align: center;
+}
+
+.expertise {
+    /* width: 100vw; */
+    min-height: 100vh;
+}
+
+.expertise .inner {
+    font-family: f1;
+    padding: 4rem;
+    width: 98.2%;
+    margin: auto;
+    height: 100%;
+    background-color: var(--light-gray);
+    border-radius: 1.7rem;
+}
+.expertise .expertise-top .left,.expertise .expertise-top .right{
+    width: 50%;
+}
+.expertise .expertise-top{
+    display: flex;
+    align-items: end;
+    padding: 3rem 0rem;
+}
+.expertise .expertise-top .left{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.expertise .expertise-top .left p{
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    border: 1px solid var(--primary-text-color);
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+.expertise .expertise-top .left h2{
+    font-size: 3rem;
+    width: 65%;
+}
+.expertise .expertise-top .right{
+    display: flex;
+    justify-content: end;
+}
+.expertise .expertise-top .right p{
+    font-size: 1.7rem;
+    color: var(--secondary-text-color);
+    width: 90%;
+}
+.expertise-video{
+    width: 100%;
+    height: 100vh;
+    border-radius: 2.5rem;
+    margin: 4rem 0rem;
+
+}
+.expertise-video video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+.expertise .blue-btn{
+    margin: auto;
 }
