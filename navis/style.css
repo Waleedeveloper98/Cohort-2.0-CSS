@@ -431,33 +431,38 @@ nav .logo a {
     font-size: 3.5rem;
     width: 70%;
 }
-.portfolio .portfolio-top{
+
+.portfolio .portfolio-top {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
+
 .portfolio .portfolio-top .blue-btn {
     width: 13rem;
     white-space: nowrap;
 }
 
-.portfolio .inner .portfolio-top .left{
+.portfolio .inner .portfolio-top .left {
     display: flex;
     flex-direction: column;
     gap: 4rem;
 }
-.portfolio .portfolio-btm{
+
+.portfolio .portfolio-btm {
     display: flex;
     flex-wrap: wrap;
 }
-.portfolio-btm .card{
+
+.portfolio-btm .card {
     width: 50%;
     padding: 1rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
 }
-.portfolio-btm .card .img-box{
+
+.portfolio-btm .card .img-box {
     width: 100%;
     height: 60vh;
     border-radius: 1rem;
@@ -465,39 +470,47 @@ nav .logo a {
     overflow: hidden;
     cursor: pointer;
 }
-.portfolio-btm .card .img-box img{
+
+.portfolio-btm .card .img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     transition: all ease-in-out .3s;
 }
-.portfolio-btm .card .img-box:hover img{
+
+.portfolio-btm .card .img-box:hover img {
     scale: 1.08;
 }
-.portfolio-btm .details{
+
+.portfolio-btm .details {
     display: flex;
     flex-direction: column;
     gap: 1.8rem;
 }
-.portfolio-btm .details h4{
+
+.portfolio-btm .details h4 {
     font-size: 2.4rem;
 }
-.portfolio-btm .details p{
+
+.portfolio-btm .details p {
     font-size: 1.6rem;
     color: var(--secondary-text-color);
 }
+
 .portfolio-btm .tags {
     display: flex;
     gap: 2rem;
 }
-.portfolio-btm .tag{
+
+.portfolio-btm .tag {
     background-color: #dae1fa;
     padding: 1rem 1.8rem;
     font-size: 1.3rem;
     border-radius: 50px;
     font-family: f2;
 }
-.ceo{
+
+.ceo {
     width: 100%;
     height: 90vh;
     padding: 4rem;
@@ -506,45 +519,188 @@ nav .logo a {
     padding-block: 8rem;
     flex-wrap: wrap;
 }
-.ceo .left,.ceo .right{
+
+.ceo .left,
+.ceo .right {
     width: 50%;
 }
-.ceo .left{
+
+.ceo .left {
     padding-right: 3%;
     display: flex;
     flex-direction: column;
     gap: 8rem;
 }
 
-.ceo .left .top-line{
+.ceo .left .top-line {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.ceo .left .top-line h3{
+
+.ceo .left .top-line h3 {
     font-size: 2.4rem;
     font-family: f3;
 }
-.ceo .left .top-line .rating i{
+
+.ceo .left .top-line .rating i {
     font-size: 2.5rem;
     margin-left: -.3rem;
     color: var(--blue);
 }
-.ceo .left .center-line{
+
+.ceo .left .center-line {
     font-size: 2.3rem;
     font-family: f2;
 }
-.ceo .left .bottom-line{
+
+.ceo .left .bottom-line {
     font-size: 2.2rem;
     font-family: f2;
 }
-.ceo .left .bottom-line span{
+
+.ceo .left .bottom-line span {
     color: var(--secondary-text-color);
     font-family: f1;
 }
-.ceo .right img{
+
+.ceo .right img {
     width: 95%;
     height: 100%;
     border-radius: 1.7rem;
     object-fit: cover;
+}
+
+.blog {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    font-family: f1;
+    display: flex;
+}
+
+.blog .inner {
+    width: 98.3%;
+    height: 100%;
+    background-color: var(--light-gray);
+    border-radius: 1.7rem;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.blog .inner .left p {
+    font-size: 1.7rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 1px solid var(--primary-text-color);
+    width: fit-content;
+    padding: 1rem 2rem;
+    border-radius: 50px;
+}
+
+.blog .inner h2 {
+    font-size: 3.5rem;
+}
+
+.blog .blog-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.blog .blog-top .blue-btn {
+    width: 8rem;
+    white-space: nowrap;
+}
+
+.blog .inner .blog-top .left {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.blog .inner .blog-btm {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding-inline: 1rem;
+}
+
+.blog .inner .blog-btm .card {
+    flex: 1;
+    background-color: white;
+    padding: 1.8rem;
+    border-radius: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    transition: all ease-in-out .3s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+
+.blog .inner .blog-btm .card .img-box {
+    width: 100%;
+    height: 60vh;
+    border-radius: 1.7rem;
+    overflow: hidden;
+}
+
+.blog .inner .blog-btm .card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all ease-out .3s;
+}
+
+.blog-btm .card .details h4 {
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.blog-btm .card .details {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.blog .inner .blog-btm .card:hover {
+    background-color: #E6EFFF;
+}
+
+.blog .inner .blog-btm .card:hover .img-box img {
+    scale: 1.08
+}
+
+.blog-btm .card .details p {
+    font-size: 1.5rem;
+    color: var(--secondary-text-color);
+}
+
+.blog-btm .card .details .profile {
+    display: flex;
+    gap: 1rem;
+}
+
+.blog-btm .card .details .profile img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.blog-btm .card .details .profile h6 {
+    font-size: 1.3rem;
+}
+
+.user-name-time {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
 }
