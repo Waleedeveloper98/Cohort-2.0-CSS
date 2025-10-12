@@ -497,3 +497,54 @@ nav .logo a {
     border-radius: 50px;
     font-family: f2;
 }
+.ceo{
+    width: 100%;
+    height: 90vh;
+    padding: 4rem;
+    display: flex;
+    font-family: f1;
+    padding-block: 8rem;
+    flex-wrap: wrap;
+}
+.ceo .left,.ceo .right{
+    width: 50%;
+}
+.ceo .left{
+    padding-right: 3%;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+}
+
+.ceo .left .top-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ceo .left .top-line h3{
+    font-size: 2.4rem;
+    font-family: f3;
+}
+.ceo .left .top-line .rating i{
+    font-size: 2.5rem;
+    margin-left: -.3rem;
+    color: var(--blue);
+}
+.ceo .left .center-line{
+    font-size: 2.3rem;
+    font-family: f2;
+}
+.ceo .left .bottom-line{
+    font-size: 2.2rem;
+    font-family: f2;
+}
+.ceo .left .bottom-line span{
+    color: var(--secondary-text-color);
+    font-family: f1;
+}
+.ceo .right img{
+    width: 95%;
+    height: 100%;
+    border-radius: 1.7rem;
+    object-fit: cover;
+}
