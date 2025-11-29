@@ -1,0 +1,58 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: poppins, sans-serif;
+ }
+
+ html,
+ body {
+     height: 100%;
+     width: 100%;
+ }
+
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+ }
+
+ @property --rotate {
+     syntax: "<angle>";
+     initial-value: 0deg;
+     inherits: false;
+ }
+
+ button {
+     background: linear-gradient(to top right, #00224e) padding-box;
+     color: white;
+     cursor: pointer;
+     padding: 16px 32px;
+     border-radius: 50px;
+     font-size: 1.2rem;
+     font-weight: 600;
+     line-height: 1;
+     text-shadow: 0px 0px 1px white;
+     box-shadow: 0px 0px 40px transparent;
+     border: none;
+     transition: all .1s ease;
+    }
+    
+    button:hover {
+        background: linear-gradient(to top right, #00224e) padding-box,
+        conic-gradient(from var(--rotate), #03045e, #48cae4, #03045e) border-box;
+        border: 3px solid transparent;
+        box-shadow: 0px 0px 40px #48cae4;
+     animation: anim 4s linear infinite;
+ }
+
+ @keyframes anim {
+     from {
+         --rotate: 0deg;
+     }
+
+     to {
+         --rotate: 360deg
+     }
+ }
